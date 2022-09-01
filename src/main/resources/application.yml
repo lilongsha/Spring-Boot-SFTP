@@ -1,0 +1,17 @@
+sftp:
+  config:
+    sftpClientProtocol: sftp
+    sftpClientHost: 192.168.159.130
+    sftpClientPort: 22
+    sftpClientUsername: root
+    sftpClientPassword: 123456
+    sftpClientRoot: /
+    fileBackupPaths: D:/sftpPaths/bak/
+    remotePaths: /home/lsuper/
+    localPaths: D:/sftpPaths/
+    sftpClientSessionStrictHostKeyChecking: no
+    sftpClientSessionConnectionTimeout: 15000
+    sftpClientChannelConnectedTimout: 15000
+    sftpMaxTotal: 100
+    sftpMinIdle: 2
+    sftpMaxIdle: 20
